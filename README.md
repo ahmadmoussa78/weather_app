@@ -1,16 +1,27 @@
-# weather_app
+Chat App
 
-A new Flutter project.
+A modern chat application built with Flutter, utilizing Cubit for state management and connecting to APIs for real-time messaging.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Real-time messaging
 
-A few resources to get you started if this is your first Flutter project:
+User authentication (sign in / sign up)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Profile management
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Chat list and chat details screens
+
+State management using Cubit
+
+API integration for data fetching and sending messages
+
+Tech Stack
+
+Flutter - Frontend framework
+
+Dart - Programming language
+
+Cubit (Bloc) - State management
+
+REST APIs - Backend communication
