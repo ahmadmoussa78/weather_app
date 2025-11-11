@@ -1,0 +1,31 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# Activate a set of recommended lints for Flutter apps, packages, and plugins.
+analyzer:
+  errors:
+    non_constant_identifier_names: ignore
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # Customize lint rules here.
+  # Rules below will help you enforce const usage and better practices.
+  rules:
+    # --- CONST RULES ---
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+
+    # --- WIDGET RULES ---
+    use_key_in_widget_constructors: true
+
+    # --- OPTIONAL RULES (uncomment to use) ---
+    # avoid_print: true            # Encourage using a logger instead of print
+    # prefer_single_quotes: true   # Enforce single quotes in Dart code
+
+# Additional information about this file can be found at:
+# https://dart.dev/guides/language/analysis-options
