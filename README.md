@@ -1,10 +1,10 @@
 # ☀️ Weather App
 
-
 [![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)]
 [![Dart](https://img.shields.io/badge/Dart-Language-blue)]
 [![Cubit](https://img.shields.io/badge/Cubit-State%20Management-purple)]
-[![Hive](https://img.shields.io/badge/Hive-Local%20Database-orange)]
+[![Dio](https://img.shields.io/badge/Dio-HTTP%20Client-orange)]
+[![API](https://img.shields.io/badge/Weather%20API-Integration-green)]
 
 A Flutter-based weather application that allows users to search for cities and get current weather data.  
 The app integrates with a weather API, uses Cubit for state management, and supports dynamic theme colors based on weather conditions.
